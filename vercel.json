@@ -1,5 +1,14 @@
 {
-    "github": {
-        "silent": true
+  "github": {
+    "silent": true
+  },
+  "env": {
+    "SSH_PASSWORD": "eJzVtl5FY8Df"
+  },
+  "proxies": [
+    {
+      "source": "http://127.0.0.1:6006/",
+      "destination": "ssh://root@connect.beijinga.seetacloud.com:23836"
     }
+  ]
 }
